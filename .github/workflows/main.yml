@@ -11,11 +11,10 @@ jobs:
 
 
     steps:
-      - name: 'github actions'
-        run: pwd
+      - name: 'printing folder contents'
+        run: ls
 
 
-      - name: 'printing'
-        run: echo mhmd
+    
 
         
