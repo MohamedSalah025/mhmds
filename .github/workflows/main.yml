@@ -1,1 +1,21 @@
+on:
+  push:
+    branches:
+      - master
 
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: 'github actions'
+        run: pwd
+
+
+      - name: 'printing'
+        run: echo mhmd
+
+        
